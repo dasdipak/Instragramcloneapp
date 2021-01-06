@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".RegisterUser">
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="User Register Form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etfname"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etlname"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etusername"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etrepassword"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:hint="Re-Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinnerbatchname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+
+        android:id="@+id/btnsignup"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
